@@ -2,3 +2,6 @@ git checkout -b name # 新建一个分支并切换到当前分支
 git branch # 查看分支
 git branch -d name # 删除分支
 git checkout name # 切换分支
+git status # 查看当前状态
+git log # 查看更改日志
+git reset --hard HEAD # 回到某一个在状态
