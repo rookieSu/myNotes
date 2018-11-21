@@ -5,3 +5,5 @@ git checkout name # 切换分支
 git status # 查看当前状态
 git log # 查看更改日志
 git reset --hard HEAD # 回到某一个在状态
+git merge --no-ff -m name # 合并分支并删除分支
+git merge -m name # 合并分支
